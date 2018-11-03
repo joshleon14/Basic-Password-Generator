@@ -16,8 +16,7 @@ class passwordCreator:
 
     def showPassword(self, length):
         print("The predefined Length is: {}".format(length))
-        print("This is your new password: ")
-        print(self.password)
+        print("This is your new password: \n{} ".format(self.password))
 
 
 passwordCreator().passwordGenerator()
