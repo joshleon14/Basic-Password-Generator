@@ -3,7 +3,7 @@ import random
 
 class passwordCreator:
     password = ""
-    chars = "abcdefghijklmnopqrstuvwxyz.,/\|[]{}""::`~<>!@#$%^&*()-=_+1234567890"
+    chars = "abcdefghijklmnopqrstuvwxyz.,/\|[]{}"":;`~<>!@#$%^&*()-=_+1234567890"
 
     def numberGenerator(self):
         return random.randint(1,50)
